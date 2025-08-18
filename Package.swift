@@ -13,7 +13,7 @@ let package = Package(
             targets: ["SwiftNetworking"]
         )
     ],    dependencies: [
-        .package(url: "https://github.com/himanshu-arun-patwardhan/SwiftLogger.git", from: "1.0.0")
+        .package(url: "https://github.com/himanshu-arun-patwardhan/SwiftLogger.git", from: "1.0.1")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
