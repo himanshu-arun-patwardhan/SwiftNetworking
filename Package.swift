@@ -12,8 +12,12 @@ let package = Package(
             name: "SwiftNetworking",
             targets: ["SwiftNetworking"]
         )
-    ],    dependencies: [
-        .package(url: "https://github.com/himanshu-arun-patwardhan/SwiftLogger.git", from: "1.0.1")
+    ],
+    dependencies: [
+        .package(
+            url: "https://github.com/himanshu-arun-patwardhan/SwiftLogger.git",
+            from: "1.0.2"
+        )
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.

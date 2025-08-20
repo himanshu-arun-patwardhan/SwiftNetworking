@@ -1,6 +1,6 @@
 //
 //  NetworkRequestProtocol.swift
-//  
+//
 //
 //
 //
