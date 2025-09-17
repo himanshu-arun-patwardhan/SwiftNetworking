@@ -17,5 +17,5 @@ It provides a protocol-driven approach to define API endpoints and a reusable Ne
 
 Add SwiftNetworking to your project using Swift Package Manager (SPM):
 - In Xcode, go to File → Add Packages…
-- Enter the repo URL: https://github.com/himanshu-arun-patwardhan/SwiftNetworking
+- Enter the repo URL: https://github.com/your-username/SwiftNetworking.git
 - Select Add Package. Now you can import the library: import SwiftNetworking
