@@ -14,7 +14,13 @@ public enum NetworkConstants {
         return "Bearer \(token)"
     }
     
-    public static func defaultHeaders(token: String) -> [String: String] {
+    public static func defaultHeader() -> [String: String] {
+        return [
+            "Content-Type": contentType
+        ]
+    }
+    
+    public static func authorizedHeaders(token: String) -> [String: String] {
         return [
             "Authorization": authorizationHeader(token: token),
             "Content-Type": contentType
